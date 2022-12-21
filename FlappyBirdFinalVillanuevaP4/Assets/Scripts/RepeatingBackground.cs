@@ -7,13 +7,13 @@ public class RepeatingBackground : MonoBehaviour {
     private BoxCollider2D groundCollider;
     private float groundHorizontalLength;
 
-    void Start()
+    private void Awake()
     {
         groundCollider = GetComponent<BoxCollider2D> ();
         groundHorizontalLength = groundCollider.size.x;
     }
 
-    void Update()
+    private void Update()
     {
         if (transform.position.x < -groundHorizontalLength)
         {

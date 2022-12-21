@@ -453,7 +453,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 311090705}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -16.3003}
+  m_LocalPosition: {x: 2.39, y: 0, z: -16.3003}
   m_LocalScale: {x: 1.63, y: 1.63, z: 1.63}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -625,7 +625,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 499835782}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6, y: 0, z: 0}
+  m_LocalPosition: {x: -2.13, y: -0.05, z: 0}
   m_LocalScale: {x: 2.5, y: 2.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -979,10 +979,8 @@ GameObject:
   - component: {fileID: 1044660456}
   - component: {fileID: 1044660455}
   - component: {fileID: 1044660453}
-  - component: {fileID: 1044660459}
   - component: {fileID: 1044660454}
   - component: {fileID: 1044660457}
-  - component: {fileID: 1044660458}
   m_Layer: 0
   m_Name: Ground 2
   m_TagString: Untagged
@@ -998,7 +996,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1044660451}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 25.21, y: -9.01, z: 1.7040002}
+  m_LocalPosition: {x: 28.5, y: -9.01, z: 1.7040002}
   m_LocalScale: {x: 9.89555, y: 5, z: 5.9152255}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1052,7 +1050,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.028166175, y: -0.03}
+  m_Offset: {x: 0.047511578, y: -0.030000001}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1063,7 +1061,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3, y: 0.3}
+  m_Size: {x: 2.580326, y: 0.3}
   m_EdgeRadius: 0
 --- !u!212 &1044660456
 SpriteRenderer:
@@ -1129,30 +1127,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbc1659f1cde7564b926320ca3c94804, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1044660458
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1044660451}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 37a715452045e7d4fa5bf82f2249ee84, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1044660459
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1044660451}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 578168b1858b0074c9823bf49ce283d0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1106919614
 GameObject:
   m_ObjectHideFlags: 0
@@ -1165,10 +1139,8 @@ GameObject:
   - component: {fileID: 1106919615}
   - component: {fileID: 1106919617}
   - component: {fileID: 1106919619}
-  - component: {fileID: 1106919622}
   - component: {fileID: 1106919618}
   - component: {fileID: 1106919620}
-  - component: {fileID: 1106919621}
   m_Layer: 0
   m_Name: UnderwaterGround
   m_TagString: Untagged
@@ -1257,7 +1229,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.028166175, y: -0.03}
+  m_Offset: {x: 0.00016915798, y: -0.030000001}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1268,7 +1240,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3, y: 0.3}
+  m_Size: {x: 2.5348027, y: 0.3}
   m_EdgeRadius: 0
 --- !u!50 &1106919618
 Rigidbody2D:
@@ -1313,30 +1285,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dbc1659f1cde7564b926320ca3c94804, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1106919621
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1106919614}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 37a715452045e7d4fa5bf82f2249ee84, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1106919622
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1106919614}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 578168b1858b0074c9823bf49ce283d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1361993508
@@ -1449,7 +1397,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1437356042}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.032, y: 0.996, z: 0}
+  m_LocalPosition: {x: 0, y: 0.996, z: 0}
   m_LocalScale: {x: 0.94163, y: 0.99508697, z: 0.21305582}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1661,7 +1609,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -44.62384}
+  m_AnchoredPosition: {x: 0, y: -44.62378}
   m_SizeDelta: {x: 159.19482, y: 30.75232}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &2060488121
@@ -1786,7 +1734,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2110937014}
   - component: {fileID: 2110937015}
-  - component: {fileID: 2110937016}
   m_Layer: 0
   m_Name: Game Controller
   m_TagString: Untagged
@@ -1816,25 +1763,9 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2110937013}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03fc8be9d8c44984bb14ad9eb1121a17, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scoreText: {fileID: 0}
-  gameOvertext: {fileID: 2060488119}
-  gameOver: 0
-  scrollSpeed: -1.5
---- !u!114 &2110937016
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2110937013}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7978016c3c2cc641b46c21d29cb7c59, type: 3}
+  m_Script: {fileID: 11500000, guid: 03fc8be9d8c44984bb14ad9eb1121a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 0}
